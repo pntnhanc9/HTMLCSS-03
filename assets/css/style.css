@@ -14,7 +14,7 @@ body{
 h1 {
     font-family: Sora;
 }
-/* Common */
+/* ========Common========= */
 a {
     text-decoration: none;
 }
@@ -43,20 +43,20 @@ a {
     opacity: 0.9;
     cursor: pointer;
 }
-/* Header */
+/* ======Header====== */
 .header {
     min-height: 100vh;
     background: var(--header-bg);
     padding-top: 30px;
 }
-.section__heading{
+.section-heading{
     color: #10375C;
     font-size: 5rem;
     font-weight: 600;
     line-height: 1.2; /* 120% */
     letter-spacing: -1px;
 }
-.section__desc {
+.section-desc {
     margin-top: 18px;
     font-weight: 300;
     font-size: 1.8rem;
@@ -109,7 +109,7 @@ a {
     font-size: 1.2em;
     font-weight: 300;
 }
-/* Header top */
+/* ======Header top====== */
 .header-top{
     display: flex;
     justify-content: space-between;
@@ -143,7 +143,7 @@ a {
     --height: 44px;
     min-width: 104px;
 }
-/* Hero */
+/* ======Hero====== */
 .hero {
     display: flex;
     align-items: center;
@@ -203,7 +203,7 @@ a {
     width: 210px;
     height: 410px;
 }
-/* Service */
+/* ======Service====== */
 .service {
     padding :170px 0;
 }
@@ -279,4 +279,50 @@ service-item__body {
     font-size: 1.6rem;
     line-height: 1.75;
     color: #575f66;
+}
+/* ======Work====== */
+.work {
+    padding: 100px 0;
+    background: #f7fbff;
+}
+.work__desc{
+    width: 468px;
+    
+}
+.work-item__heading{
+    margin-top: 18px;
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38
+}
+.work-item__desc{
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    width: 254px;
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+.work__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin-top: 70px;
+}
+.work-item {
+    padding: 44px;
+    border: 16px solid #eaf6ff;
+    border-radius: 4px;
+    transition: 0.25s;
+}
+.work-item:hover {
+    transform: translateY(-16px);
+    border-color: #2e80ce;
+}
+.work-item__more {
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #2e80ce;
 }
