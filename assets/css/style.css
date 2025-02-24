@@ -378,6 +378,12 @@ service-item__body {
     column-gap: 30px;
     margin-top: 85px;
 }
+.member-item:hover .member-item__thumb{
+    transform: scale(1.1);
+}
+.member-item__thumb{
+    transition: 0.25s;
+}
 .member-item__name{
     color: #10375C;
     font-size: 1.6rem;
