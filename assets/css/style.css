@@ -358,3 +358,68 @@ service-item__body {
 .feature__cta{
     margin-top: 53px;
 }
+/* Member */
+.member {
+    padding: 85px 0;
+    text-align: center;
+}
+.member__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.member__cta {
+    margin-top: 38px;
+}
+.member__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    margin-top: 85px;
+}
+.member-item__name{
+    color: #10375C;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.75;
+    margin-top: 12px;
+}
+.member-item__title{
+    color: #575F66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.86;
+}
+.member-item__img-bg{
+    border-radius: 6px;
+    background: #EAF6FF;
+}
+.member__control{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+}
+.member__control-btn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+    color:#575F66
+}
+.member__control-btn:hover{
+    background: #2e80ce;
+    border: #2E80CE;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.member__control-next-icon{
+    transform: rotate(180deg);
+}
