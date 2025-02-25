@@ -429,3 +429,45 @@ service-item__body {
 .member__control-next-icon{
     transform: rotate(180deg);
 }
+/* Install */
+.install{
+    padding: 170px 0;
+}
+.install__inner{
+    display: flex;
+    border-radius: 4px;
+    background: #2E80CE;
+    padding: 0 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.install__img{
+    display: block;
+    margin-top: -95px;
+}
+.install__content{
+    width: 586px;
+    height: 276px;
+}
+.install__heading{
+    max-width: 489px;
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height:1.2; /* 120% */
+    letter-spacing: -1px;
+}
+.install__desc{
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+    margin-top: 18px;
+    max-width: 586px;
+}
+.install__row{
+    margin-top: 38px;
+}
+.instal__app{
+    padding: 0 14px ;
+}
